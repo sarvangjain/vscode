@@ -1,2 +1,2 @@
 # vscode
-Respository to access code anywhere on web.
+Repository to access code anywhere on web.
