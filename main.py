@@ -2,11 +2,6 @@ import pandas as pd
 import mmh3
 from kazoo.client import KazooClient
 
-def my_func(event):
-    # check to see what the children are now
-        print("event: ", event)
-        zk.get_children("/zk", watch=my_func)
-
 def read_csv(file_path):
     """Read the CSV file into a DataFrame."""
     return pd.read_csv(file_path)
